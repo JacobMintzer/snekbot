@@ -60,9 +60,9 @@ def pls():
 @bot.command()
 @asyncio.coroutine 
 def plsno():
-	"""pls no this is a bad idea u will regret it"""
-	    for x in range(0, 5):
-            yield from bot.say('snek pls') # spaces > tabs
+    """pls no this is a bad idea u will regret it"""
+    for x in range(0, 5):
+        yield from bot.say('snek pls') # spaces > tabs
 
 @bot.command()
 @asyncio.coroutine 
@@ -365,7 +365,7 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
-			"-q:a 9",
+			"-q:a": 9,
 		}
 
 		if state.voice is None:
@@ -391,7 +391,7 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
-			"-q:a 9",
+			"-q:a": 9,
 		}
 
 		if state.voice is None:
@@ -424,7 +424,8 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
-			"-q:a 9",
+			"-q:a": 9,
+			
 		}
 
 		if state.voice is None:
