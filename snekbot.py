@@ -365,6 +365,7 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
+			"-q:a 9",
 		}
 
 		if state.voice is None:
@@ -390,6 +391,7 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
+			"-q:a 9",
 		}
 
 		if state.voice is None:
@@ -422,6 +424,7 @@ class Music:
 		opts = {
 			'default_search': 'auto',
 			'quiet': True,
+			"-q:a 9",
 		}
 
 		if state.voice is None:
