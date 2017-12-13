@@ -55,12 +55,8 @@ def pls():
 @asyncio.coroutine 
 def plsno():
 	"""pls no this is a bad idea u will regret it"""
-	yield from bot.say('snek pls')
-	yield from bot.say('snek pls')
-	yield from bot.say('snek pls')
-	yield from bot.say('snek pls')
-	yield from bot.say('snek pls')
-	yield from bot.say('snek pls')
+	for x in range(0, 5):
+            yield from bot.say('snek pls') # spaces > tabs
 @bot.command()
 @asyncio.coroutine 
 def hello():
